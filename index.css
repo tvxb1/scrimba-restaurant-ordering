@@ -1,0 +1,159 @@
+body, h1, h2, h3 {
+    margin: 0;
+    font-family: "Smythe", serif;
+}
+
+body {
+    padding: 20px 0;
+}
+
+.container {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    background-image: url("assets/img.png");
+    background-size: 600px;
+    background-repeat: no-repeat;
+    height: 150px;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 50px;
+    background-position: center;
+}
+
+h1 {
+    font-size: 34px;
+}
+h2 {
+    font-size: 20px;
+}
+
+.menu-item {
+    display: flex;
+    padding: 30px 0;
+    border-bottom: 2px solid lightgray;
+    align-items: center;
+}
+
+.emoji {
+    font-size: 80px;
+    margin-right: 20px;
+}
+
+.item-title {
+    font-size: 26px;
+}
+
+.item-ingredients {
+    font-size: 14px;
+    color: darkgray;
+}
+
+.item-price {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.add-btn {
+    margin-left: auto;
+    border-radius: 80%;
+    border: 1px solid lightgray;
+    font-size: 20px;
+    padding: 4px 10px;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.add-btn:hover {
+    background-color: lightgray;
+}
+
+.order-recap-title {
+    text-align: center;
+    font-size: 28px;
+    margin-top: 30px;
+}
+
+.order-recap {
+    padding-bottom: 15px;
+    border-bottom: 2px solid black;
+    margin-bottom: 10px;
+}
+
+.order-item {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.remove {
+    cursor: pointer;
+    color: gray;
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+.order-total {
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.submit-btn {
+    width: 100%;
+    border: none;
+    background-color: #16DB99;
+    padding: 12px 0;
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    border-radius: 4px;
+}
+
+.submit-btn:hover {
+    background-color: #0E8661FF;
+}
+
+.popover {
+    width: 400px;
+    box-shadow: 0 0 60px 0 rgba(0,0,0,0.75);
+    border: none;
+    padding: 30px;
+    align-items: center;
+}
+
+.popover-title {
+    text-align: center;
+    font-family: Verdana, sans-serif;
+    font-size: 24px;
+}
+
+input {
+    font-size: 20px;
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    margin: 10px 0;
+    border-radius: 4px;
+    border: 2px solid lightgray;
+    color: gray;
+}
+
+.success {
+    background-color: #ECFDF5;
+    padding: 30px;
+    font-size: 30px;
+    color: #065F46;
+    text-align: center;
+    margin: 20px 0;
+
+}
