@@ -10,11 +10,12 @@ To deploy the project, run the following commands:
 
 ```
 npm install
+```
 
+```
 npx vite
 ```
 
 # Try it online
 
-You can try the project at the following URL: 
-
+You can try the project at the following URL: https://scrimba-ordering-app-zek4.netlify.app/.
